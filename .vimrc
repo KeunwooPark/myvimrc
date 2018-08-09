@@ -15,10 +15,10 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 
+set t_Co=256
 colo seoul256
 "set t_8f=[38;2;%lu;%lu;%lum
 "set t_8b=[48;2;%lu;%lu;%lum
 "set termguicolors
-"set t_Co=256
 "set background=dark
 "colo dracula
